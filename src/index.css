@@ -42,9 +42,10 @@ p {
   padding: 2rem;
   grid-area: navbar;
   width: 100%;
-  height: 15vh;
+  min-height: 15vh;
 }
 .nav-item {
+  line-height: 3.4rem;
   letter-spacing: 0.2rem;
   /* text-transform: uppercase; */
   padding: 0.8rem;
@@ -82,7 +83,7 @@ article {
 .page {
   /* grid-area: page; */
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 20vh;
   min-height: 93vh;
   padding-bottom: 3vh;
 }
@@ -145,4 +146,9 @@ input {
   margin-right: auto;
 }
 .cocktail-list-item-header {
+}
+.cocktail-searchform {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3.5rem;
 }

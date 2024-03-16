@@ -10,7 +10,7 @@ function SearchForm() {
     <>
       {/* <h1>seachform</h1> */}
       <form>
-        <label>
+        <label className="cocktail-searchform">
           <span className="searchform">Enter cocktail name:</span>{" "}
           <input type="text" value={cocktail} onChange={handleInputChange} />
         </label>

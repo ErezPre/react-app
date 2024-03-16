@@ -17,7 +17,7 @@ function Cocktail() {
   }, [id]);
   return (
     <>
-      <div className="cocktail page">Cocktail {id}</div>
+      <h1 className="cocktail page">Cocktail {id}</h1>
     </>
   );
 }
