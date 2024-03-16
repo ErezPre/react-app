@@ -33,7 +33,7 @@ function CocktailList({ searchTerm }) {
                 to={`/cocktails/${item.idDrink}`}
                 className="cocktail-list-item"
               >
-                <h3>{item.strDrink}</h3>
+                <h3 className="cocktail-list-item-header">{item.strDrink}</h3>
                 <img
                   className="drink-img"
                   src={item.strDrinkThumb}
