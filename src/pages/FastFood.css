@@ -1,0 +1,16 @@
+
+.map {
+  max-width: 700px; /* Set the maximum width */
+  max-height: 400px; /* Set the maximum height */
+  overflow: hidden; /* Add scrollbars if content exceeds the size */
+  /* Add any other styles or properties you need */
+  /* background-color: lightblue; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* You can center the div using margin or flexbox as needed */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

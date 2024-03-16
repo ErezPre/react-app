@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Error from "./pages/Error";
+import Cocktails from "./pages/Cocktails";
+import Cocktail from "./pages/Cocktail";
+import FastFood from "./pages/FastFood";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/cocktails" element={<Cocktails />} />
+        <Route path="/cocktails/:id" element={<Cocktail />} />
+        <Route path="/FastFood" element={<FastFood />} />
+        <Route path="/resources/FastFoodCoordinates.json" />
+        <Route path="*" element={<Error />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 

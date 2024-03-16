@@ -1,0 +1,85 @@
+{
+  "foodChains": [
+    {
+      "name": "McDonald's",
+      "logo": "https://seeklogo.com/images/M/mcdonald-s-logo-2325D6C1EF-seeklogo.com.png",
+      "locations": [
+        {
+          "name": "McDonald's Tel Aviv Center",
+          "coordinates": {
+            "latitude": 32.075361,
+            "longitude": 34.779472
+          }
+        },
+        {
+          "name": "McDonald's Rothschild Boulevard",
+          "coordinates": {
+            "latitude": 32.067961,
+            "longitude": 34.775822
+          }
+        },
+        {
+          "name": "McDonald's Dizengoff Street",
+          "coordinates": {
+            "latitude": 32.077548,
+            "longitude": 34.775389
+          }
+        }
+      ]
+    },
+    {
+      "name": "Domino's Pizza",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/800px-Domino%27s_pizza_logo.svg.png",
+      "locations": [
+        {
+          "name": "Domino's Tel Aviv North",
+          "coordinates": {
+            "latitude": 32.069374,
+            "longitude": 34.777008
+          }
+        },
+        {
+          "name": "Domino's Tel Aviv Central",
+          "coordinates": {
+            "latitude": 32.068548,
+            "longitude": 34.786707
+          }
+        },
+        {
+          "name": "Domino's Tel Aviv South",
+          "coordinates": {
+            "latitude": 32.057143,
+            "longitude": 34.777008
+          }
+        }
+      ]
+    },
+    {
+      "name": "Burger King",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Burger_King_logo_%281999%29.svg/1012px-Burger_King_logo_%281999%29.svg.png",
+      "locations": [
+        {
+          "name": "Burger King Tel Aviv Beach",
+          "coordinates": {
+            "latitude": 32.085793,
+            "longitude": 34.769917
+          }
+        },
+        {
+          "name": "Burger King Ibn Gabirol Street",
+          "coordinates": {
+            "latitude": 32.081749,
+            "longitude": 34.779893
+          }
+        },
+        {
+          "name": "Burger King Dizengoff Center",
+          "coordinates": {
+            "latitude": 32.075994,
+            "longitude": 34.775126
+          }
+        }
+      ]
+    }
+  ]
+}
