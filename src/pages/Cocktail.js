@@ -59,9 +59,37 @@ function Cocktail() {
     const { name, image, category, info, glass, instructions, ingredients } =
       cocktail;
     return (
-      <>
-        <h1 className="cocktail page">Cocktail {name}</h1>
-      </>
+      <div className="page">
+        <h1>{name}</h1>
+        <section className="cocktail-card">
+          <img className="cocktail-image" src={image} alt={info} />
+          <div className="cocktail-descriptions">
+            <p className="cocktail-description">
+              <b>name:</b> {name}
+            </p>
+            <p className="cocktail-description">
+              <b>category:</b> {category}
+            </p>
+            <p className="cocktail-description">
+              <b>is alcoholic?</b> {info}
+            </p>
+            <p className="cocktail-description">
+              <b>glass:</b> {glass}
+            </p>
+            <p className="cocktail-description">
+              <b>instructions:</b> {instructions}
+            </p>
+            <p className="cocktail-description">
+              <b>ingredients:</b>{" "}
+              {ingredients.map((ingredient, index) => {
+                if (ingredient) {
+                  return <span key={index}>&#x2022; {ingredient} </span>;
+                }
+              })}
+            </p>
+          </div>
+        </section>
+      </div>
     );
   }
 }

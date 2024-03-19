@@ -162,3 +162,34 @@ input {
   padding: 0.3rem;
   color: hsl(209, 34%, 30%);
 }
+.cocktail-card {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  /* background-color: blue; */
+  border-radius: 1rem;
+}
+.cocktail-image {
+  width: 20rem;
+  border-radius: 1rem;
+  border: 0.3rem solid hsl(209, 34%, 30%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  order: 1;
+}
+.cocktail-description {
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 25vw;
+}
+cocktail-descriptions p::first-word {
+  font-weight: bold;
+}
+.cocktail-descriptions {
+  order: 2;
+  padding-left: 3rem;
+}
