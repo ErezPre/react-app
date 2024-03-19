@@ -184,7 +184,7 @@ input {
   text-align: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  width: 25vw;
+  max-width: 40vw;
 }
 cocktail-descriptions p::first-word {
   font-weight: bold;
