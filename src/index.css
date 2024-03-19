@@ -31,6 +31,7 @@ p {
   color: hsl(208, 37%, 76%);
 }
 .navbar {
+  /* line-height: 10vh; */
   background-color: hsl(208, 77%, 25%);
   position: fixed;
   top: 0;
@@ -179,12 +180,14 @@ input {
   border: 0.3rem solid hsl(209, 34%, 30%);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   order: 1;
+  margin-bottom: 1.5rem;
 }
 .cocktail-description {
   text-align: left;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  max-width: 40vw;
+  max-width: 35vw;
+  min-width: 20rem;
 }
 cocktail-descriptions p::first-word {
   font-weight: bold;
@@ -192,4 +195,17 @@ cocktail-descriptions p::first-word {
 .cocktail-descriptions {
   order: 2;
   padding-left: 3rem;
+  /* padding-top: 1rem; */
+}
+
+@media screen and (max-width: 670px) {
+  .navbar {
+    line-height: 10vh;
+  }
+  .page {
+    padding-top: 30vh;
+  }
+  .cocktail-descriptions {
+    /* margin-top: 5rem; */
+  }
 }

@@ -6,7 +6,7 @@ function Cocktails() {
   //SearchForm contains CocktailList component within it
   return (
     <div className="cocktails page">
-      <h1>cocktails</h1>
+      <h1>Cocktails</h1>
       <h2 className="introduction">
         Demonstrating the use of The Cocktail DB. The user can type whichever
         cocktail he wants in the search bar and get a list of cocktails
