@@ -45,7 +45,7 @@ p {
   min-height: 15vh;
 }
 .nav-item {
-  line-height: 3.4rem;
+  /* line-height: 3.4rem; */
   letter-spacing: 0.2rem;
   /* text-transform: uppercase; */
   padding: 0.8rem;
@@ -83,7 +83,7 @@ article {
 .page {
   /* grid-area: page; */
   width: 100%;
-  padding-top: 20vh;
+  padding-top: 15vh;
   min-height: 93vh;
   padding-bottom: 3vh;
 }
@@ -151,4 +151,14 @@ input {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 3.5rem;
+}
+.select-food-chain {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  color: hsl(209, 34%, 30%);
 }
