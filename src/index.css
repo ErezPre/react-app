@@ -209,3 +209,7 @@ cocktail-descriptions p::first-word {
     /* margin-top: 5rem; */
   }
 }
+.page-not-found {
+  /* text-transform: uppercase; */
+  letter-spacing: 0.05rem;
+}
