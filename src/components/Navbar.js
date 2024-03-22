@@ -21,11 +21,11 @@ function Navbar() {
               Fast Food Chains
             </Link>
           </div>
-          <div className="nav-item-container">
+          {/* <div className="nav-item-container">
             <Link to="/about" className="nav-item">
               About
             </Link>
-          </div>
+          </div> */}
         </ul>
       </nav>
       {/* <Outlet /> */}
