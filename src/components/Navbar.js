@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet, BrowserRouter as Router } from "react-router-dom";
 
+/* Fixed position, upper navbar for the website */
 function Navbar() {
   return (
     <>

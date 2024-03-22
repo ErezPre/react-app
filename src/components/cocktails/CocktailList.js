@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
+/* Renders the cocktail list in Cocktails page according to the seach term inserted by the user */
 function CocktailList({ searchTerm }) {
   const [cocktailList, setCocktailList] = useState([]);
   useEffect(() => {

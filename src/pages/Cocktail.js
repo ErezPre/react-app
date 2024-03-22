@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
+/* Renders a single Cocktail page when clicking on a cocktail in the Cocktails page.
+The {id} prop is given via useParams hook, and the full cocktail information is fetched from www.thecocktaildb.com using useEffect hook. All of the cocktail info is then stored at 'cocktail' variable using useState hook and presented across the page.
+ */
 function Cocktail() {
   const { id } = useParams();
   const [cocktail, setCocktail] = useState(null);

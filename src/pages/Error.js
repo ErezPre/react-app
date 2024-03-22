@@ -1,5 +1,6 @@
 import React from "react";
 
+/* Handles accessing a url that doesn't exist across the website */
 function Error() {
   return (
     <div className="page">

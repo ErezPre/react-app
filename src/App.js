@@ -15,6 +15,7 @@ import Cocktails from "./pages/Cocktails";
 import Cocktail from "./pages/Cocktail";
 import FastFood from "./pages/FastFood";
 
+/* Automatically scrolls to the top when loading a new page */
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
@@ -25,6 +26,7 @@ const ScrollToTop = () => {
   return null;
 };
 
+/* Main routing for the app */
 function App() {
   return (
     <Router>

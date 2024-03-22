@@ -2,6 +2,7 @@ import React from "react";
 import SearchForm from "../components/cocktails/SearchForm";
 import CocktailList from "../components/cocktails/CocktailList";
 
+/* Cocktails page, renders the <SearchForm> component which renders <CocktailList> component */
 function Cocktails() {
   //SearchForm contains CocktailList component within it
   return (

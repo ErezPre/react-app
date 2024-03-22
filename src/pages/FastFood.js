@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import Map1 from "../components/Map1";
 import jsonData from "../resources/FastFoodCoordinates.json";
 
+/* 
+  Renders the food chains page.
+  
+*/
 function FastFood() {
   const foodChains = ["McDonald's", "Domino's Pizza", "Burger King"];
   const foodChainsCoordinates = JSON.stringify(jsonData, null, 2);

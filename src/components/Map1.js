@@ -3,6 +3,14 @@ import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 
+/* 
+Render a map that shows the chosen fast food branches in your area.
+Uses Leaflet API - https://leafletjs.com/reference.html
+<MapContainer> - determins the map's initial position, zoom and size.
+<TileLayer> - the map consists of tiles. Each tile covers a different section of the map.
+<Marker> - each tile will contain a marker in a certain coordinate if the given fast food chain has a branch in that coordinate. Marker will display the logo of the food chain.
+<Popup> - will show up when clicking on a marker. Will display the branch name and the fast food chain logo.
+*/
 const Map1 = ({ locations, logo }) => {
   const position = [32.0653, 34.7818]; // Initial map center position
   console.log(locations);
@@ -14,6 +22,7 @@ const Map1 = ({ locations, logo }) => {
       style={{ height: "500px", width: "100%" }}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+
       {locations.map((location) => {
         const customIcon = L.divIcon({
           className: "custom-icon",
