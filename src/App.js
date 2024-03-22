@@ -37,7 +37,7 @@ function App() {
         <Route path="/cocktails/:id" element={<Cocktail />} />
         <Route path="/FastFood" element={<FastFood />} />
         <Route path="/resources/FastFoodCoordinates.json" />
-        <Route path="/*" element={<Error />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
     </Router>
