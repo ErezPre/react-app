@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Map1 from "../components/Map1";
-import "./FastFood.css";
 import jsonData from "../resources/FastFoodCoordinates.json";
 
 function FastFood() {
