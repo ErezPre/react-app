@@ -13,7 +13,7 @@ Uses Leaflet API - https://leafletjs.com/reference.html
 */
 const Map1 = ({ locations, logo }) => {
   const position = [32.0653, 34.7818]; // Initial map center position
-  console.log(locations);
+  // console.log(locations);
 
   return (
     <MapContainer

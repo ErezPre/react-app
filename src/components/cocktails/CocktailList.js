@@ -17,7 +17,7 @@ function CocktailList({ searchTerm }) {
       .catch((error) => {
         console.log(error);
       });
-    console.log("cocktaillist", cocktailList);
+    // console.log("cocktaillist", cocktailList);
   }, [searchTerm]);
   if (!cocktailList) {
     return <h1>there are no cocktails matching your search</h1>;
