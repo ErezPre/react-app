@@ -89,8 +89,8 @@ article {
   padding-bottom: 3vh;
 }
 .map {
-  max-width: 700px; /* Set the maximum width */
-  max-height: 400px; /* Set the maximum height */
+  width: 70vw; /* Set the maximum width */
+  height: 70vh; /* Set the maximum height */
   overflow: hidden; /* Add scrollbars if content exceeds the size */
   /* Add any other styles or properties you need */
   /* background-color: lightblue; */
@@ -220,7 +220,7 @@ cocktail-descriptions p::first-word {
     /* margin-top: 5rem; */
   }
   .map {
-    max-height: 300px;
+    /* max-height: 300px; */
   }
 }
 .page-not-found {
