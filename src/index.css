@@ -219,6 +219,9 @@ cocktail-descriptions p::first-word {
   .cocktail-descriptions {
     /* margin-top: 5rem; */
   }
+  .map {
+    max-height: 300px;
+  }
 }
 .page-not-found {
   /* text-transform: uppercase; */
