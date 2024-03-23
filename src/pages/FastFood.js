@@ -4,7 +4,7 @@ import jsonData from "../resources/FastFoodCoordinates.json";
 
 /* 
   Renders the food chains page.
-  
+  The preferred food chain is chosen by the user via <select>. Once chosen, the data related to this food chain is being fetched from '/resources/FastFoodCoordinates.json' file, and the logo + branches' coordinates are being loaded to <Map> element.
 */
 function FastFood() {
   const foodChains = ["McDonald's", "Domino's Pizza", "Burger King"];
@@ -38,7 +38,7 @@ function FastFood() {
       </select>
       <div className="map">
         <Map1 locations={foodChainLocations} logo={logo} />
-        {console.log(preferredFoodChain)}
+        {/* {console.log(preferredFoodChain)} */}
       </div>
     </div>
   );
