@@ -84,7 +84,7 @@ article {
 .page {
   /* grid-area: page; */
   width: 100%;
-  padding-top: 17vh;
+  padding-top: 19vh;
   min-height: 93vh;
   padding-bottom: 3vh;
 }
@@ -220,7 +220,7 @@ cocktail-descriptions p::first-word {
     /* margin-top: 5rem; */
   }
   .map {
-    max-height: 58vh;
+    max-height: 55vh;
   }
 }
 .page-not-found {
