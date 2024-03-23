@@ -84,13 +84,13 @@ article {
 .page {
   /* grid-area: page; */
   width: 100%;
-  padding-top: 21vh;
+  padding-top: 20vh;
   min-height: 93vh;
   padding-bottom: 3vh;
 }
 .map {
   width: 70vw; /* Set the maximum width */
-  height: 70vh; /* Set the maximum height */
+  height: 67vh; /* Set the maximum height */
   overflow: hidden; /* Add scrollbars if content exceeds the size */
   /* Add any other styles or properties you need */
   /* background-color: lightblue; */
