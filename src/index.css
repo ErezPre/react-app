@@ -90,7 +90,7 @@ article {
 }
 .map {
   width: 70vw; /* Set the maximum width */
-  height: 67vh; /* Set the maximum height */
+  height: 70vh; /* Set the maximum height */
   overflow: hidden; /* Add scrollbars if content exceeds the size */
   /* Add any other styles or properties you need */
   /* background-color: lightblue; */
@@ -220,7 +220,7 @@ cocktail-descriptions p::first-word {
     /* margin-top: 5rem; */
   }
   .map {
-    max-height: 53vh;
+    height: 53vh;
   }
 }
 .page-not-found {
