@@ -84,7 +84,7 @@ article {
 .page {
   /* grid-area: page; */
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 17vh;
   min-height: 93vh;
   padding-bottom: 3vh;
 }
